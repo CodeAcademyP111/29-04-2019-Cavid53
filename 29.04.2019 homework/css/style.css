@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+div[class*="col-"]{
+    float: left;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.color1{
+  
+    height: 100px;
+}
+.color1 p{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.color2{
+    
+    height: 100px;
+}
+.color2 ul{
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+.color2 ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 18px;
+    margin-left: 57px;
+    margin-top: 11px;
+}
+.color2 ul li a{
+   text-decoration: none;
+   color: black;
+}
+.row{
+    background-color: aliceblue;
+}
+
+.color3{
+    
+    height: 100px;
+    
+}
+.color3 p{
+    display: inline;
+    position: absolute;
+    top: 35px;
+    right: 265px;
+
+}
+.color3 p a{
+text-decoration: none;
+color: black;
+}
+.color3 span{
+    position: absolute;
+    top: 41px;
+    right: 135px;
+    background-color: chartreuse;
+    padding:10px;
+    border-radius: 5px;
+   
+}
+.color3 span a{
+    text-decoration: none;
+    color: black;
+
+}
+ul li ::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 8%;
+    background-color: green;
+}
+ul li:hover ::after{
+
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: green;
+
+}
+
+ul li:hover ::after{
+    transition: all 0.5s ease;
+}
+.color3 span ::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 8%;
+    
+}
+
+.color3 span:hover ::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: green;
+}
+
+.color3 span:hover ::after{
+    transition: all 0.5s ease;
+
+}
+.color3 p ::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 8%;
+}
+
+.color3 p:hover ::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: green;
+}
+.color3 p:hover ::after{
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+.color4{
+    background: blue;
+    height: 100px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+
+    width: 58.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+/* offset */
+
+.col-offset-1{
+    margin-left: 8.33%;
+}
+
+.col-offset-2{
+    margin-left: 16.66%;
+}
+
+.col-offset-3{
+    margin-left: 25%;
+}
+
+.col-offset-4{
+    margin-left: 33.33%;
+    
+}
+
+.col-offset-5{
+    margin-left: 41.66%;
+}
+
+.col-offset-6{
+    margin-left: 50%;
+}
+
+.col-offset-7{
+    margin-left: 58.33%;
+}
+
+.col-offset-8{
+    margin-left: 66.66%;
+}
+
+.col-offset-9{
+    margin-left: 75%;
+}
+
+.col-offset-10{
+    margin-left: 83.33%;
+}
+
+.col-offset-11{
+    margin-left: 91.66%;
+}
+
+.col-offset-12{
+    margin-left: 100%;
+}
